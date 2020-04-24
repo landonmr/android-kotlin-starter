@@ -1,14 +1,12 @@
 package com.landon.starterproject.views
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.landon.starterproject.Constants
 import com.landon.starterproject.R
 import com.landon.starterproject.models.Character
 import kotlinx.android.synthetic.main.character_detail.*
-import java.util.*
 
 class CharacterDetails: AppCompatActivity() {
 

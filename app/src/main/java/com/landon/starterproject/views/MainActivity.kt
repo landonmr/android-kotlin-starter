@@ -2,30 +2,21 @@ package com.landon.starterproject.views
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.media.ThumbnailUtils
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.snackbar.Snackbar
 import com.landon.starterproject.Constants
 import com.landon.starterproject.R
 import com.landon.starterproject.adapters.CharacterAdapter
 import com.landon.starterproject.adapters.OnCharacterClickListener
 import com.landon.starterproject.models.Character
-import com.landon.starterproject.models.Image
 import com.landon.starterproject.viewModels.CharacterViewModel
 import com.landon.starterproject.viewModels.ViewState
-import io.reactivex.Scheduler
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_main.*
-import org.koin.androidx.viewmodel.ext.android.viewModel
-import java.io.Serializable
 
 class MainActivity : AppCompatActivity(), OnCharacterClickListener {
 
