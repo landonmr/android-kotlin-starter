@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="main_title">Marvel Characters</string>
+    <string name="main_error_msg">An error has occurred</string>
+    <string name="character_detail_title">Character Details</string>
+    <string name="character_detail_no_description">No Description available</string>
+
+</resources>
